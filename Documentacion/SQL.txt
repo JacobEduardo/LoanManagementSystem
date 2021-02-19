@@ -19,6 +19,7 @@ CREATE TABLE `LOCATION`
 PRIMARY KEY (`ID_LOCATION`)
 );
 
+
 CREATE TABLE `USER`
 (
  `ID_USER`     int NOT NULL AUTO_INCREMENT ,
@@ -26,11 +27,15 @@ CREATE TABLE `USER`
  `RUT`         varchar(45) NOT NULL ,
  `PERMITIS`    varchar(45) NOT NULL ,
  `ID_LOCATION` int NOT NULL ,
+ `PASSWORD`    varchar(45) NOT NULL ,
+ `LAST_NAME`   varchar(45) NOT NULL ,
+ `NICKNAME`    varchar(45) NOT NULL ,
 
 PRIMARY KEY (`ID_USER`),
 KEY `fkIdx_72` (`ID_LOCATION`),
 CONSTRAINT `FK_71` FOREIGN KEY `fkIdx_72` (`ID_LOCATION`) REFERENCES `LOCATION` (`ID_LOCATION`)
 );
+
 
 
 CREATE TABLE `GOODS`
@@ -71,3 +76,12 @@ CONSTRAINT `FK_42` FOREIGN KEY `fkIdx_43` (`ID_CLIENT`) REFERENCES `CLIENT` (`ID
 KEY `fkIdx_75` (`ID_USER_END`),
 CONSTRAINT `FK_74` FOREIGN KEY `fkIdx_75` (`ID_USER_END`) REFERENCES `USER` (`ID_USER`)
 );
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+INSERT INTO location (NAME) VALUES ('Oficina ARL');
+
+INSERT INTO user (ID_LOCATION, NICKNAME,PASSWORD) VALUES (1, 'jparraguezv', 'ojoescher');
+
+SELECT * FROM user where nickname='jparraguezv' and password='ojoescher'
