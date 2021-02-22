@@ -3,7 +3,6 @@
 <?php
         session_start ();
 ?>
-    <a href="close_session.php">Cerrar Session </a>
     
 <?php
     if(isset($_SESSION['nickname'])){ 
