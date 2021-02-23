@@ -85,3 +85,9 @@ INSERT INTO location (NAME) VALUES ('Oficina ARL');
 INSERT INTO user (ID_LOCATION, NICKNAME,PASSWORD) VALUES (1, 'jparraguezv', 'ojoescher');
 
 SELECT * FROM user where nickname='jparraguezv' and password='ojoescher'
+
+INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS, ID_LOCATION) VALUE ('HDMI', '3', '1', 'Clave hdmi 1,8 metros', 'HDMI01', '1', '1');
+INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS, ID_LOCATION) VALUE ('HDMI', '3', '1', 'Clave hdmi 1,8 metros', 'HDMI02', '1', '1');
+INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS, ID_LOCATION) VALUE ('HDMI', '3', '1', 'Clave hdmi 1,8 metros', 'HDMI03', '1', '1');
+
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('11123234-3', 'Richar', 'Administrativo', '1')

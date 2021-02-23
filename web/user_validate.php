@@ -11,11 +11,11 @@
 
     if($query_result){
         session_start (); 
-        while ($rowss = $query_result->fetch_array()){
-            $_SESSION['nickname'] = $rowss['NICKNAME'];
-            $_SESSION['name'] = $rowss['NAME'];
-            $_SESSION['rut'] = $rowss['RUT'];
-            $_SESSION['last_name'] = $rowss['LAST_NAME'];
+        while ($rows = $query_result->fetch_array()){
+            $_SESSION['nickname'] = $rows['NICKNAME'];
+            $_SESSION['name'] = $rows['NAME'];
+            $_SESSION['rut'] = $rows['RUT'];
+            $_SESSION['last_name'] = $rows['LAST_NAME'];
         }
 
         header("location:index.php");

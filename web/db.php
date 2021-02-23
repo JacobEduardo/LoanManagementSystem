@@ -7,8 +7,8 @@ $conn = mysqli_connect(
     'loan_system'
 );
 
-if (isset($conn)) {
+/*if (isset($conn)) {
     echo 'DB is conection';
 }
-
+*/
 ?>
