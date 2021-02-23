@@ -90,4 +90,11 @@ INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS
 INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS, ID_LOCATION) VALUE ('HDMI', '3', '1', 'Clave hdmi 1,8 metros', 'HDMI02', '1', '1');
 INSERT INTO goods (NAME, VALUE, LOAN_STATUS, DESCRIPTION, CODE,	INVENTORY_STATUS, ID_LOCATION) VALUE ('HDMI', '3', '1', 'Clave hdmi 1,8 metros', 'HDMI03', '1', '1');
 
-INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('11123234-3', 'Richar', 'Administrativo', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('11123234-3', 'Tico Tejada Zarate', 'Administrativo', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('13423234-3', 'Baldovino Cervantes Domínguez', 'Administrativo', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('16423234-3', 'Cristo Feliciano Valdés', 'Profesor', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('12345674-3', 'Balino Peña Domín', 'Profesor', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('18766434-3', 'Milcíades Correa Godoy', 'Profesor', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('10123994-3', 'Jaden Olivares Guillén', 'Administrativo', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('12345674-3', 'Audrey Archuleta Godínez', 'Profesor', '1')
+INSERT INTO client (RUT, NAME, KIND, STATUS) VALUE ('13347684-3', 'Olalla Espino Madera', 'Profesor', '1')
