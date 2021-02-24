@@ -2,7 +2,7 @@
     $user = $_POST['user'];
     $password = $_POST['password'];
 
-    require("db.php");
+    require("database/db.php");
 
     $query = "SELECT * FROM user where nickname='$user' and pass='$password'";
     $query_result = mysqli_query($conn,$query);
@@ -20,6 +20,6 @@
 
         header("location:index.php");
     }else{
-        header("location:db.php");
+        header("location:database/db.php");
     }
 ?>

@@ -7,16 +7,16 @@
 ?>
 
 <table>
-  <tr>
-    <th><?php echo $name ?></th>
-    <th><?php echo "" ?></th>
-    <th><?php echo "" ?></th>
-  </tr>
-  <tr>
-    <td><?php echo $rut ?></td>
-    <td><?php echo "" ?></td>
-    <td><?php echo "" ?></td>
-</tr>
+    <tr>
+        <th><?php echo $name ?></th>
+        <th><?php echo "" ?></th>
+        <th><?php echo "" ?></th>
+    </tr>
+    <tr>
+        <td><?php echo $rut ?></td>
+        <td><?php echo "" ?></td>
+        <td><?php echo "" ?></td>
+    </tr>
 <tr>
     <td colspan="3" style="text-align:right;">
     <?php if($status == 1){ ?>
@@ -24,7 +24,7 @@
         <input  name="goods" placeholder="Buscar" class="form-control form-text" type="text" size="20" maxlength="150" />
         <input  name="loan" type="submit" value="Prestar"/>
     <?php } 
-        require("db.php");    
+        require("database/db.php");    
 
         if(isset($_POST['loan'])){
             $seeker = $_POST['goods'];

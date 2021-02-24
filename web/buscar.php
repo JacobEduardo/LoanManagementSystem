@@ -1,7 +1,7 @@
 <?php
     $seeker = $_POST['seeker'];
 
-    require("db.php"); 
+    require("database/db.php"); 
     
     if($seeker){
         $query = "SELECT * FROM goods WHERE code LIKE '%$seeker%';";
