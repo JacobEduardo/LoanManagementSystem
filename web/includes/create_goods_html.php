@@ -6,7 +6,7 @@
     }
 ?>
 
-<table>
+<table class="one">
     <tr>
         <th><?php echo $name ?></th>
     </tr>

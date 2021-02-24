@@ -83,21 +83,28 @@ body{
     height: 34px;
 }
 
+table.two {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-width: 600px;
+    min-width: 400px;
+    border: rgb(175, 175, 175) 2px solid;
+}
 
-table {
+table.one {
     margin-top: 20px;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     max-width: 600px;
     min-width: 400px;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
 }

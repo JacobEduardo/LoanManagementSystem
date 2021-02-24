@@ -3,6 +3,7 @@
     <input id="seeker"  name="text_input" placeholder="Buscar" class="form-control form-text" type="text" size="20" maxlength="128" />
     <input id="seeker_btn" name="search" type="submit" value="Buscar"/>
 
+<div style="margin-top: 20px;">
     <?php
         require("database/db.php");  
         require("database/conn_db.php");  
@@ -46,3 +47,5 @@
     ?>
 
 </FORM>
+
+</div>

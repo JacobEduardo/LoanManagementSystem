@@ -3,13 +3,12 @@
         $rut = $rows['RUT'];
         $name = $rows['NAME'];
         $status = $rows['STATUS'];
-
-        echo '<table>';
-        echo '<tr>';
-        echo    '<th>' .$name .'</th>';
+        echo '<table class="two" style="margin-top: 5px;">';
+        echo '<tr >';
+        echo    '<th style="padding: 2px">' .$name .'</th>';
         echo '</tr>';
         echo '<tr>';
-        echo    '<td>' .$rut .'</td>';
+        echo    '<td style="padding: 2px">' .$rut .'</td>';
         echo '</tr>';
         echo '</table>';
     }
