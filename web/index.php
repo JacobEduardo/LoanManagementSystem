@@ -12,5 +12,4 @@
     }
 ?>
 
-
 <?php include("includes/footer.php"); //todo que esta al final de la pagina?>

@@ -88,7 +88,6 @@ table.two {
     border-collapse: collapse;
     max-width: 600px;
     min-width: 400px;
-    border: rgb(175, 175, 175) 2px solid;
 }
 
 table.one {

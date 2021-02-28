@@ -13,5 +13,5 @@
         $query_result = mysqli_query($conn,$query);  
         return $query_result;
     }
-
+ 
 ?>
